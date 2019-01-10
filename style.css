@@ -1,16 +1,20 @@
+/* Sets margin and padding of the body to 0 */ 
 body{
     margin:0;
     padding:0;
+    /* Sets the font and colour */
     font-family: "Arial";
     background-color: #1F1F1F;
 }
 
+/* Alligns the text to center, sets the colour and changes the size */
 h1{
     text-align: center;
     color: #FFFFFF;
     font-size: 22px;
 }
 
+/* Alligns the text, changes the colour and sets 2 margins */
 p{
     text-align: center;
     color: #FFFFFF;
@@ -26,7 +30,7 @@ p1{
 p2{
     color: black;
 }
-
+/* Changes the style of the navigation bar */
 .nav{
     background-color: #1F1F1F;
     color: #FFFFFF;
@@ -36,9 +40,9 @@ p2{
     margin-left: -15px;
 }
 
+/* Changes the style of elements within the navigation bar */
 .nav > li{
-    display: inline-block;
-    
+    display: inline-block;  
     padding-right: 25px;
 }
 
@@ -52,6 +56,7 @@ p2{
     color: #C1C1C1;
 }
 
+/* Sets padding and margin of the logo. Float is set to left */
 .logo{
     overflow:hidden;
     padding: 0;
@@ -60,6 +65,7 @@ p2{
     position: relative;
 }
 
+/* Sets the style of the video on the home page */
 .video {
 	position:relative;
 	padding-bottom:56.25%;
@@ -76,6 +82,7 @@ p2{
 	height:100%;
 }
 
+/* Sets us the list for the products */
 .column {
     text-align: center;
     color: #FFFFFF;
@@ -98,10 +105,12 @@ p2{
     display: table;
 }
 
+/* Sets the colour of p3 to red */
 P3{
     color: red;
 }
 
+/* Sets the style of the button */
 button{
     color: black;
     text-align: center;
@@ -146,20 +155,14 @@ button{
   cursor: pointer;
 }
 
-
-
-
-
-
-
-
-
+/* Sets the style of the image gallery container */
 .gallerycontainer{
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: auto;
 }
 
+/* Sets the style of the image container and all internal elements */
 div.gallery {
     margin: 10px;    
     border: 1px solid #ccc;
@@ -183,6 +186,7 @@ div.desc {
     color: #FFFFFF;
 }
 
+/* Sets the style  */
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
@@ -271,6 +275,7 @@ img {vertical-align: middle;}
   .prev, .next,.text {font-size: 11px}
 }
 
+/* Sets the style of the form and */
 .centerform{
     margin: 0;
     padding: 0;
@@ -325,6 +330,7 @@ form . submit: hover{
     width: 40%;
 }
 
+/* The CSS for the footer */
 .footer{
     bottom: 0;
     color: #FFFFFF;
