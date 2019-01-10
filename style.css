@@ -346,8 +346,8 @@ form . submit: hover{
 
 .rowfoot{
     display: block;
-    margin-left: 40%;
-    margin-right: 30%;  
+    margin-left: 45%;
+    margin-right: auto;
 }
 .columnfoot {
     float: left;
